@@ -1,0 +1,936 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.genLayout{
+    max-width: 1160px;
+    margin: auto;
+}
+
+/* HEADER */
+.header{
+    background-color: #ff3b3b;
+}
+
+.headerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.headerContent p{
+    font-size: 17px;
+    color: white;
+    opacity: .8.5;
+}
+
+.headerContent .middleSign span{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+}
+
+.headerContent .rightIcon i{
+    color: white;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* NAV BAR */
+.navWrapper{
+    background-color: rgb(255, 252, 248);
+}
+
+.navContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.navContent .logoContent img{
+    width: 6rem;
+}
+
+.navContent .logoContent span{
+    color: rgb(255 186 53);
+    font-size: 30px;
+}
+
+.navContent .middleContent{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.navContent .middleContent p{
+    font-size: 16px;
+    font-weight: 600;
+    opacity: .9;
+}
+
+.navContent .cartLogos{
+    font-size: 25px;
+    display: flex;
+    gap: 12px;
+    opacity: .9;
+}
+
+/* SECTION ONE (1)*/
+.section1{
+    background-color: rgb(245 245 245);
+    padding: 7rem 0;
+}
+
+.section1Content{
+    display: flex;
+     justify-content: space-between;
+    /* align-items: center;  */
+    gap: 5px;
+}
+
+.leftContent .onlineStore{
+    display: flex;
+}
+
+.leftContent .onlineStore .onlineStoreLayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 0 15px;
+    gap: 10px;
+}
+
+.leftContent .onlineStore .imageClass{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(245 245 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftContent .onlineStore img{
+    width: 30px;
+    height: 30px;
+}
+
+.onlineStoreLayout p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.leftContent .exploreJersey h2{
+    padding: 1.4rem 0;
+    font-size: 55px;
+    text-transform: capitalize;
+}
+
+.leftContent .exploreJersey h2 span{
+    color: #ff3b3b;
+}
+
+.leftContent .exploreJersey p{
+    /* padding: 0 0 1.4rem; */
+    line-height: 25px;
+}
+
+.leftContent .buttonsGalore{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 3rem 0;
+}
+
+.buttonsGalore button{
+    width: 10rem;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff3b3b;
+}
+
+.buttonsGalore button p{
+    display: inline;
+    text-transform: capitalize;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.leftContent .buttonsGalore .productsClass p{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.leftContent .imageBottom{
+    display: flex;
+    gap: 12px;
+}
+
+.imageBottom .textButton h1{
+    opacity: .8;
+}
+
+.rightContent .rightImage{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.rightContent .rightImage img{
+    width: 30rem;
+    /* height: 30rem; */
+}
+
+/* SECTION TWO (2) */
+
+.section2{
+    background-color: white;
+}
+
+.section2Content .topMessage{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.section2Content .topMessage img{
+    width: 60px;
+    height: 60px;
+}
+
+.topMessage .leftMessage{
+    display: flex;
+    gap: 10px;
+}
+
+.topMessage .leftMessage .textMsg{
+    text-transform: capitalize;
+    line-height: 35px;
+}
+
+.topMessage .middleMessage{
+    display: flex;
+    gap: 10px;
+}
+
+.topMessage .middleMessage .textMsg{
+    text-transform: capitalize;
+    line-height: 35px;
+}
+
+.topMessage .rightMessage{
+    display: flex;
+    gap: 10px;
+}
+
+.topMessage .rightMessage .textMsg{
+    text-transform: capitalize;
+    line-height: 35px;
+}
+
+.section2b{
+    display: flex;
+    gap: 2.2rem;
+}
+
+.section2b .shirts{
+    width: 34rem;
+    border-radius: 20px;
+    background-color: rgb(245 245 245);
+    padding: 2rem;
+    display: flex;
+}
+
+.section2b .h2cover{
+    width: 140px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.section2b .shirts h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.section2b .shirts h2 span{
+    color: #ff3b3b;
+    font-weight: 600;
+}
+
+.shirts h1{
+    font-size: 45px;
+    padding: 1rem 0;
+}
+
+.shirtTypes{
+    line-height: 35px;
+}
+
+.shirtTypes p{
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+
+.shirtRight .rightShirt{
+    padding-top: 140px;
+    padding-left: 20px;
+}
+
+.shirtRight img{
+    width: 25rem;
+    height: 25rem;
+    
+}
+
+.shorts{
+    width: 37rem;
+    border-radius: 20px;
+    background-color: rgb(245 245 245);
+    padding: 2rem;
+    display: flex;
+}
+
+.shorts h1{
+    font-size: 45px;
+    padding: 1rem 0;
+}
+
+.shorts h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;    
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.shorts h2 span{
+    color: #ff3b3b;
+    font-weight: 600;
+}
+
+.shortsRight .rightShorts{
+    /* padding-top: 140px; */
+    padding-left: 45px;
+}
+
+.shortsRight img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10px;
+}
+
+.socks{
+    width: 37rem;
+    border-radius: 20px;
+    background-color: rgb(245 245 245);
+    padding: 2rem;
+    margin-top: 37px;
+    display: flex;
+}
+
+.socks h1{
+    font-size: 45px;
+    padding: 1rem 0;
+}
+
+.socks h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;    
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.socks h2 span{
+    color: #ff3b3b;
+    font-weight: 600;
+}
+
+.socksRight .socksImage{
+    padding-left: 45px;
+}
+
+.socksRight img{
+    width: 22rem;
+    height: 18rem;
+    border-radius: 10px;
+}
+
+/* SECTION THREE (3) */
+.section3Content{
+    padding-top: 130px;
+    text-align: center;
+}
+
+.latestProducts{
+    display: flex;
+    gap: 40px;
+    padding-top: 25px;
+}
+
+.section3Content h2{
+    font-weight: 500;
+}
+
+.section3Content h2 span{
+    color: #ff3b3b;
+}
+
+.section3Content h1{
+    padding: 1.5rem 0;
+    font-size: 47px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.section3Content h1 span{
+    color: #ff3b3b;
+}
+
+.btnGroup{
+    padding: 0 1.5rem;
+}
+
+.btnGroup button{
+    padding: 1rem;
+    border-radius: 45px;
+    border: 0.1px solid #ccc ;
+    background-color: white;
+    margin: 7px;
+}
+
+button h2{
+    text-transform: capitalize;
+}
+
+.box1 .boxOne{
+    background-color: rgb(245 245 245);
+    border-radius: 25px;
+    /* width: 20rem; */
+}
+
+.boxOne .pBox p{
+    padding: 7px 0rem;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+}
+
+.boxOne .pBox{
+    /* height: 70px; */
+    width: 100px;
+    border-radius: 5rem;
+    background-color: #ff3b3b;
+    /* padding: 1rem; */
+    margin-left: 20px;
+}
+
+.box1 .boxOne img{
+    height: 24rem;
+    padding: 3rem 3rem;
+    padding-top: 10px;
+
+}
+
+.box1 .poBox p{
+    font-size: 19px;
+    opacity: .8;
+    padding: 10px 0;
+}
+
+.box1 h1{
+    font-size: 25px;
+    line-height: 45px;
+    opacity: .9;
+}
+
+.poBox h2 span{
+    text-decoration: line-through;
+    opacity: .4;
+}
+
+/* SECTION FOUR (4) */
+.section4Content{
+    padding-top: 100px;
+}
+
+.allFlash{
+    display: flex;
+    gap: 1px;
+    width: 100%;
+}
+
+.leftFlash{
+    background-color: rgb(245 245 245);
+    border-radius: 25px;
+    width: 60%;
+    padding-top: 7rem;
+}
+
+.leftFlash p{
+    text-align: center;
+}
+
+.leftFlash .topFlash h1{
+    text-align: center;
+    font-size: 45px;
+    text-transform: capitalize;
+    opacity: .8;
+}
+
+.leftFlash .topFlash h1 span{
+    color: #ff3b3b;
+    opacity: 1;
+}
+
+.leftFlash .topFlash p{
+    font-size: 25px;
+    padding: 1rem 0;
+    opacity: 1;
+}
+
+.leftFlash .countDown{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 23px;
+    padding-top: 20px;
+}
+
+.leftFlash .countDown h1{
+    font-size: 55px;
+}
+
+.leftFlash .countDown p{
+    font-size: 20px;
+    opacity: .8;
+}
+
+.countDown .colon{
+    padding-top: 10px;
+}
+
+.allFlash .buttonsGalore1{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+ .allFlash .buttonsGalore1 button{
+    width: 10rem;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff3b3b;
+}
+
+.allFlash .buttonsGalore1 button p{
+    display: inline;
+    text-transform: capitalize;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.allFlash .imageFlash{
+    display: flex;
+    gap: 1px;
+}
+
+.allFlash .imageFlash img{
+    width: 50%;
+}
+
+.section5{
+    padding: 5rem 0 0 0 ;
+}
+
+.section5 .allDeals h2{
+    padding: 0 0 1.5rem 0;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.allDeals h2 i{
+    font-size: 30px;
+}
+
+.section5Content .daysDeals{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    gap: 20rem;
+    padding: 0 0 5rem 0;
+}
+
+.section5Content .daysDeals .deals{
+    font-size: 28px;
+}
+
+.deals h1 span{
+    color: #ff3b3b;
+}
+
+.daysDeals .dealsMsg p{
+    font-size: 19px;
+}
+
+label, input{
+    display: none;
+}
+
+.boxDealsWrapper{
+    display: flex;
+    gap: 25px;
+}
+
+.boxDeals{
+    border: 1px solid #ebeaea;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.boxDeals .leftBox{
+    display: flex;
+    gap: 6px;
+}
+
+.boxDeals .insideBox{
+    background-color: rgb(245 245 245);
+    width: 50%;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.insideBox .boxOne img{
+    height: 19rem;
+    padding: 1rem 0;
+}
+
+.leftBox .insideText .shirtP{
+    padding: 3.7rem 0 7px 0;
+    font-size: 18px;
+}
+
+.insideText h2{
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.insideText h1{
+    line-height: 45px;
+}
+
+.insideText h1 span{
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.insideText .iconStar{
+    font-size: 23px;
+    padding: 10px 0 15px 0;
+    font-weight: 500;
+}
+
+.insideText .proElite{
+    line-height: 23px;
+    padding-bottom: 20px;
+}
+
+.insideText button{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    padding-bottom: 1.5rem;
+    color: #ff3b3b;
+}
+
+.section6Content{
+    margin-top: 3rem;
+    display: flex;
+    gap: 30px;
+}
+
+.section6Content .leftDiscount{
+    width: 50%;
+    background-color: rgb(245 245 245);
+    border-radius: 20px;
+    padding: 3rem 0 0 3rem;
+    display: flex;
+}
+
+.leftDiscount h2{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 0 1rem 0;
+}
+
+.leftDiscount h1{
+    font-size: 43px;
+}
+
+.leftDiscount p{
+    padding: 1.5rem 0;
+}
+
+
+.leftDiscount img{
+    height: 18rem;
+    position: relative;
+    left: 20px;
+}
+
+.buttonsGalore2{
+    text-align: center;
+    padding: 2rem 0 3rem 0;
+}
+
+.buttonsGalore2 button{
+    position: relative;
+    right: 60px;
+    width: 10rem;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ff3b3b;
+}
+
+.buttonsGalore2 button p{
+    display: inline;
+    text-transform: capitalize;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+} 
+
+.section7{
+    margin-top: 7rem;
+    background-color: rgb(245 245 245);
+}
+
+.section7Content{
+    padding: 9rem 0 0 0;
+}
+
+.section7Content .testimonialSite{
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonialSite h2{
+    font-weight: 400;
+}
+
+.testimonialSite h1{
+    padding: 1.5rem 0 2.5rem 0;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.testimonialSite h1 span{
+    color: #ff3b3b;
+}
+
+.clientele{
+    display: flex;
+    gap: 30px;
+}
+
+.leftClient{
+    background-color: white;
+    /* width: 50%; */
+    border-radius: 30px;
+    /* height: 590px; */
+}
+
+.leftClient .topClient{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+}
+
+.topClient .clientPicContainer{
+    width: 160px; 
+    height: 150px; 
+    background-color: #ff3b3b;
+    border-radius: 25px 50% 50% 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+.topClient .clientPic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(245 245 245);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 4px solid white ;
+}
+
+.clientPic img{
+    border-radius: 50%;
+}
+
+.topClient .middleClient{
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.middleClient{
+    /* margin-left: 30px; */
+    /* border: 2px solid black; */
+    position: relative;
+    right: 4rem;
+}
+
+.middleClient h2{
+    font-size: 23px;
+}
+
+.middleClient .Basketballer p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.middleClient .iconStar i{
+     font-size: 23px;
+     line-height: 30px;
+}
+
+.iconStar p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.leftClient .downText p{
+    padding: 1rem 1rem 1.5rem 1.5rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.leftClient .quoteClient{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(245 245 245);
+    position: relative;
+    bottom: -3rem;
+    left: -5rem;
+}
+
+.quoteClient i{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: -.8rem;
+}
+
+@media (max-width: 1000px){
+    .headerContent p{
+        font-size: 16px;
+    }    
+
+    /* .headerContent .rightIcon i{
+        
+    } */
+
+    label{
+        display: block;
+        font-size: 2rem;
+        margin-right: -8rem;
+    }
+
+    .headerContent .middleSign{
+        display: none;
+    }
+    
+    .navContent .middleContent{
+        position: absolute;
+        width: 80%;
+        padding: 1.8rem;
+        top: 9rem;
+        right: 3px;
+        z-index: 1;
+        background-color: #fdfbf8;
+        opacity: 0.97;
+        /* border: 4px /solid #000; */
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+        /* border-bottom: 4px solid #000; */
+    }
+
+
+    #toggle:checked + .middleContent{
+        display: block;
+        transform: none;
+    }
+
+    .navContent .cartLogos i:nth-child(1){
+        display: none;
+    }
+
+    .navContent .cartLogos i:nth-child(2){
+        display: none;
+    }
+
+    .section1Content{
+        flex-direction: column;
+    }
+
+    .rightImage{
+        margin-top: 30px;
+    }
+
+    .section1Content .rightContent .rightImage img{
+        width: 350px;
+    }
+
+    /* .leftContent .imageBottom{
+        width: x;
+    } */
+
+
+}
+
